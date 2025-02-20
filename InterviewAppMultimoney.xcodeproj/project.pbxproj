@@ -25,6 +25,7 @@
 		14C9FF7B2D66BA7300B2CF44 /* LaunchCardGradiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF7A2D66BA7200B2CF44 /* LaunchCardGradiant.swift */; };
 		14C9FF7D2D66BAE600B2CF44 /* LaunchCardDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF7C2D66BAE600B2CF44 /* LaunchCardDisplayable.swift */; };
 		14C9FF7F2D66BB1200B2CF44 /* LaunchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF7E2D66BB1200B2CF44 /* LaunchCardView.swift */; };
+		14C9FF832D66BC9B00B2CF44 /* MultimoneyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		14C9FF7A2D66BA7200B2CF44 /* LaunchCardGradiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCardGradiant.swift; sourceTree = "<group>"; };
 		14C9FF7C2D66BAE600B2CF44 /* LaunchCardDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCardDisplayable.swift; sourceTree = "<group>"; };
 		14C9FF7E2D66BB1200B2CF44 /* LaunchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCardView.swift; sourceTree = "<group>"; };
+		14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimoneyTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +215,7 @@
 		14C9FF812D66BBB300B2CF44 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -300,6 +303,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C9FF832D66BC9B00B2CF44 /* MultimoneyTabBar.swift in Sources */,
 				14C9FF6F2D667DFB00B2CF44 /* LauchesViewModel.swift in Sources */,
 				14C9FF722D6689A900B2CF44 /* LauchesCardsUI.swift in Sources */,
 				14C9FF482D66788A00B2CF44 /* LauchesScreen.swift in Sources */,
