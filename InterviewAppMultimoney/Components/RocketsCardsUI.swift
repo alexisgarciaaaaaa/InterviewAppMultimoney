@@ -1,5 +1,5 @@
 //
-//  LauchesCardsUI.swift
+//  RocketsCardsUI.swift
 //  InterviewAppMultimoney
 //
 //  Created by bryangarcia on 19/2/25.
@@ -8,9 +8,9 @@
 import SwiftUI
 import InterviewAppMultimoneyAPI
 
-struct LauchesCardsUI<CardView: LaunchCardDisplayable>: View {
-    let cardViewBuilder: (GetLaunchesListQuery.Data.LaunchesPast?) -> CardView
-    var lauches: [GetLaunchesListQuery.Data.LaunchesPast?]?
+struct RocketsCardsUI<CardView: ShipCardDisplayable>: View {
+    let cardViewBuilder: (ShipResponse) -> CardView
+    @Binding var ships: [ShipResponse]
     @Binding var firstLoading: Bool
     @Binding var infinityLoading: Bool
     var onLastItemAppear: (() -> Void)?
@@ -19,12 +19,11 @@ struct LauchesCardsUI<CardView: LaunchCardDisplayable>: View {
         ScrollView {
             LazyVStack(spacing: 16) {
                 if !firstLoading {
-                    if let launches = lauches {
-                        ForEach(launches, id: \.?.id) { data in
+                        ForEach(ships , id: \.id) { data in
                             cardViewBuilder(data)
                                 .padding(.horizontal)
                                 .onAppear {
-                                    if lauches?.last == data { 
+                                    if ships.last == data {
                                         onLastItemAppear?()
                                     }
                                 }
@@ -35,7 +34,6 @@ struct LauchesCardsUI<CardView: LaunchCardDisplayable>: View {
                                 .progressViewStyle(.circular)
                                 .padding()
                         }
-                    }
                 } else {
                     ProgressView()
                         .progressViewStyle(.circular)
@@ -47,6 +45,4 @@ struct LauchesCardsUI<CardView: LaunchCardDisplayable>: View {
         .background(Color(.systemGroupedBackground))
     }
 }
-#Preview {
-    LauchesScreen()
-}
+

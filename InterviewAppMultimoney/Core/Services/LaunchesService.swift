@@ -8,6 +8,6 @@
 import Foundation
 import Apollo
 
-class LaunchesService: LauchProtocol {
-    var networkClient = ApolloClient(url: URL(string: "https://spacex-production.up.railway.app/")!)
+class DataService: ServicesProtocol {
+    var networkClient = ApolloClient(url: URL(string: "https://spacex-production.up.railway.app")!)
 }

@@ -8,6 +8,6 @@
 import Foundation
 import Apollo
 
-protocol LauchProtocol {
+protocol ServicesProtocol {
     var networkClient: ApolloClient { get }
 }

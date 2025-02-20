@@ -1,0 +1,8 @@
+query GetShipList($limit: Int, $offset: Int) {
+  ships(limit: $limit, offset: $offset) {
+    year_built
+    type
+    name
+    image
+  }
+}

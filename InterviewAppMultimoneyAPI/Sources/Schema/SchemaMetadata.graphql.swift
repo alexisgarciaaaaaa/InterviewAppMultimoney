@@ -20,11 +20,10 @@ public enum SchemaMetadata: ApolloAPI.SchemaMetadata {
 
   public static func objectType(forTypename typename: String) -> ApolloAPI.Object? {
     switch typename {
-    case "Distance": return InterviewAppMultimoneyAPI.Objects.Distance
     case "Launch": return InterviewAppMultimoneyAPI.Objects.Launch
     case "LaunchLinks": return InterviewAppMultimoneyAPI.Objects.LaunchLinks
     case "Query": return InterviewAppMultimoneyAPI.Objects.Query
-    case "Rocket": return InterviewAppMultimoneyAPI.Objects.Rocket
+    case "Ship": return InterviewAppMultimoneyAPI.Objects.Ship
     default: return nil
     }
   }

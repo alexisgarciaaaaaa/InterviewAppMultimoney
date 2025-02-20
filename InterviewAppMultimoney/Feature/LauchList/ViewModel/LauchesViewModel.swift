@@ -5,7 +5,7 @@
 //  Created by bryangarcia on 19/2/25.
 //
 
-import Foundation
+import SwiftUI
 import Apollo
 import InterviewAppMultimoneyAPI
 
@@ -13,12 +13,11 @@ class LauchesViewModel: ObservableObject {
     @Published var lauches: [GetLaunchesListQuery.Data.LaunchesPast?]? = []
     @Published var firstLoading: Bool = false
     @Published var infinityLoading: Bool = false
-//    @Published var currentPage2: Int = 1
     @Published var currentPage: Int = 1
     @Published var perPage: GraphQLNullable<Int> = 10
-    let service: LauchProtocol
+    let service: ServicesProtocol
     
-    init(service: LauchProtocol = LaunchesService()) {
+    init(service: ServicesProtocol = DataService()) {
         self.service = service
         self.getLanchesList()
     }

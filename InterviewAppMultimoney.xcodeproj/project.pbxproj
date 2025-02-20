@@ -15,7 +15,7 @@
 		14C9FF5C2D667A0F00B2CF44 /* ApolloWebSocket in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF5B2D667A0F00B2CF44 /* ApolloWebSocket */; };
 		14C9FF602D667A7000B2CF44 /* schema.graphqls in Resources */ = {isa = PBXBuildFile; fileRef = 14C9FF5F2D667A7000B2CF44 /* schema.graphqls */; };
 		14C9FF622D667A9900B2CF44 /* Launches.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 14C9FF612D667A9900B2CF44 /* Launches.graphql */; };
-		14C9FF642D667B4200B2CF44 /* Rockets.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 14C9FF632D667B4200B2CF44 /* Rockets.graphql */; };
+		14C9FF642D667B4200B2CF44 /* Ships.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 14C9FF632D667B4200B2CF44 /* Ships.graphql */; };
 		14C9FF672D667D0400B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF662D667D0400B2CF44 /* InterviewAppMultimoneyAPI */; };
 		14C9FF6A2D667D5700B2CF44 /* LaunchesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF692D667D5700B2CF44 /* LaunchesService.swift */; };
 		14C9FF6D2D667D7C00B2CF44 /* LaunchRepositories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF6C2D667D7C00B2CF44 /* LaunchRepositories.swift */; };
@@ -28,6 +28,15 @@
 		14C9FF832D66BC9B00B2CF44 /* MultimoneyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */; };
 		14C9FF862D66BDC600B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF852D66BDC600B2CF44 /* InterviewAppMultimoneyAPI */; };
 		14C9FF892D66BE3900B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF882D66BE3900B2CF44 /* InterviewAppMultimoneyAPI */; };
+		14C9FF8E2D66BF2700B2CF44 /* RocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF8D2D66BF2700B2CF44 /* RocketViewModel.swift */; };
+		14C9FF912D66C05C00B2CF44 /* RocketsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF902D66C05C00B2CF44 /* RocketsScreen.swift */; };
+		14C9FF942D66CA0C00B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF932D66CA0C00B2CF44 /* InterviewAppMultimoneyAPI */; };
+		14C9FF972D66CBE500B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF962D66CBE500B2CF44 /* InterviewAppMultimoneyAPI */; };
+		14C9FF9A2D66CEDF00B2CF44 /* RocketsCardDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF992D66CEDF00B2CF44 /* RocketsCardDisplayable.swift */; };
+		14C9FF9C2D66CEF800B2CF44 /* RocketsCardsUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF9B2D66CEF800B2CF44 /* RocketsCardsUI.swift */; };
+		14C9FFA02D66CF4B00B2CF44 /* ShipCardGradiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF9F2D66CF4B00B2CF44 /* ShipCardGradiant.swift */; };
+		14C9FFA32D66D67B00B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FFA22D66D67B00B2CF44 /* InterviewAppMultimoneyAPI */; };
+		14C9FFA52D66DD9C00B2CF44 /* ShipInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FFA42D66DD9C00B2CF44 /* ShipInfoRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +47,7 @@
 		14C9FF4C2D66788C00B2CF44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14C9FF5F2D667A7000B2CF44 /* schema.graphqls */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = schema.graphqls; sourceTree = "<group>"; };
 		14C9FF612D667A9900B2CF44 /* Launches.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Launches.graphql; sourceTree = "<group>"; };
-		14C9FF632D667B4200B2CF44 /* Rockets.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rockets.graphql; sourceTree = "<group>"; };
+		14C9FF632D667B4200B2CF44 /* Ships.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Ships.graphql; sourceTree = "<group>"; };
 		14C9FF692D667D5700B2CF44 /* LaunchesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchesService.swift; sourceTree = "<group>"; };
 		14C9FF6C2D667D7C00B2CF44 /* LaunchRepositories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchRepositories.swift; sourceTree = "<group>"; };
 		14C9FF6E2D667DFB00B2CF44 /* LauchesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchesViewModel.swift; sourceTree = "<group>"; };
@@ -47,6 +56,12 @@
 		14C9FF7C2D66BAE600B2CF44 /* LaunchCardDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCardDisplayable.swift; sourceTree = "<group>"; };
 		14C9FF7E2D66BB1200B2CF44 /* LaunchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCardView.swift; sourceTree = "<group>"; };
 		14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimoneyTabBar.swift; sourceTree = "<group>"; };
+		14C9FF8D2D66BF2700B2CF44 /* RocketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketViewModel.swift; sourceTree = "<group>"; };
+		14C9FF902D66C05C00B2CF44 /* RocketsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsScreen.swift; sourceTree = "<group>"; };
+		14C9FF992D66CEDF00B2CF44 /* RocketsCardDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsCardDisplayable.swift; sourceTree = "<group>"; };
+		14C9FF9B2D66CEF800B2CF44 /* RocketsCardsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsCardsUI.swift; sourceTree = "<group>"; };
+		14C9FF9F2D66CF4B00B2CF44 /* ShipCardGradiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipCardGradiant.swift; sourceTree = "<group>"; };
+		14C9FFA42D66DD9C00B2CF44 /* ShipInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipInfoRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +69,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C9FF942D66CA0C00B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
 				14C9FF752D66B9B600B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
+				14C9FFA32D66D67B00B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
 				14C9FF5A2D667A0F00B2CF44 /* Apollo in Frameworks */,
 				14C9FF892D66BE3900B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
+				14C9FF972D66CBE500B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
 				14C9FF5C2D667A0F00B2CF44 /* ApolloWebSocket in Frameworks */,
 				14C9FF862D66BDC600B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
 				14C9FF672D667D0400B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
@@ -144,7 +162,7 @@
 			children = (
 				14C9FF5F2D667A7000B2CF44 /* schema.graphqls */,
 				14C9FF612D667A9900B2CF44 /* Launches.graphql */,
-				14C9FF632D667B4200B2CF44 /* Rockets.graphql */,
+				14C9FF632D667B4200B2CF44 /* Ships.graphql */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -169,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				14C9FF712D6689A900B2CF44 /* LauchesCardsUI.swift */,
+				14C9FF9B2D66CEF800B2CF44 /* RocketsCardsUI.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -212,6 +231,9 @@
 		14C9FF802D66BBA300B2CF44 /* RocketList */ = {
 			isa = PBXGroup;
 			children = (
+				14C9FF982D66CE6F00B2CF44 /* Componenets */,
+				14C9FF8F2D66C04800B2CF44 /* View */,
+				14C9FF8C2D66BF1900B2CF44 /* ViewModel */,
 			);
 			path = RocketList;
 			sourceTree = "<group>";
@@ -222,6 +244,32 @@
 				14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		14C9FF8C2D66BF1900B2CF44 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14C9FF8D2D66BF2700B2CF44 /* RocketViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14C9FF8F2D66C04800B2CF44 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14C9FF902D66C05C00B2CF44 /* RocketsScreen.swift */,
+				14C9FF992D66CEDF00B2CF44 /* RocketsCardDisplayable.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14C9FF982D66CE6F00B2CF44 /* Componenets */ = {
+			isa = PBXGroup;
+			children = (
+				14C9FF9F2D66CF4B00B2CF44 /* ShipCardGradiant.swift */,
+				14C9FFA42D66DD9C00B2CF44 /* ShipInfoRow.swift */,
+			);
+			path = Componenets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +295,9 @@
 				14C9FF742D66B9B600B2CF44 /* InterviewAppMultimoneyAPI */,
 				14C9FF852D66BDC600B2CF44 /* InterviewAppMultimoneyAPI */,
 				14C9FF882D66BE3900B2CF44 /* InterviewAppMultimoneyAPI */,
+				14C9FF932D66CA0C00B2CF44 /* InterviewAppMultimoneyAPI */,
+				14C9FF962D66CBE500B2CF44 /* InterviewAppMultimoneyAPI */,
+				14C9FFA22D66D67B00B2CF44 /* InterviewAppMultimoneyAPI */,
 			);
 			productName = InterviewAppMultimoney;
 			productReference = 14C9FF422D66788A00B2CF44 /* InterviewAppMultimoney.app */;
@@ -278,7 +329,7 @@
 			mainGroup = 14C9FF392D66788A00B2CF44;
 			packageReferences = (
 				14C9FF582D667A0F00B2CF44 /* XCRemoteSwiftPackageReference "apollo-ios" */,
-				14C9FF872D66BE3900B2CF44 /* XCLocalSwiftPackageReference "InterviewAppMultimoneyAPI" */,
+				14C9FFA12D66D67B00B2CF44 /* XCLocalSwiftPackageReference "InterviewAppMultimoneyAPI" */,
 			);
 			productRefGroup = 14C9FF432D66788A00B2CF44 /* Products */;
 			projectDirPath = "";
@@ -295,7 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14C9FF622D667A9900B2CF44 /* Launches.graphql in Resources */,
-				14C9FF642D667B4200B2CF44 /* Rockets.graphql in Resources */,
+				14C9FF642D667B4200B2CF44 /* Ships.graphql in Resources */,
 				14C9FF4D2D66788C00B2CF44 /* Preview Assets.xcassets in Resources */,
 				14C9FF602D667A7000B2CF44 /* schema.graphqls in Resources */,
 				14C9FF4A2D66788C00B2CF44 /* Assets.xcassets in Resources */,
@@ -309,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C9FFA52D66DD9C00B2CF44 /* ShipInfoRow.swift in Sources */,
 				14C9FF832D66BC9B00B2CF44 /* MultimoneyTabBar.swift in Sources */,
 				14C9FF6F2D667DFB00B2CF44 /* LauchesViewModel.swift in Sources */,
 				14C9FF722D6689A900B2CF44 /* LauchesCardsUI.swift in Sources */,
@@ -318,7 +370,12 @@
 				14C9FF7D2D66BAE600B2CF44 /* LaunchCardDisplayable.swift in Sources */,
 				14C9FF462D66788A00B2CF44 /* InterviewAppMultimoneyApp.swift in Sources */,
 				14C9FF7B2D66BA7300B2CF44 /* LaunchCardGradiant.swift in Sources */,
+				14C9FF912D66C05C00B2CF44 /* RocketsScreen.swift in Sources */,
+				14C9FF8E2D66BF2700B2CF44 /* RocketViewModel.swift in Sources */,
 				14C9FF7F2D66BB1200B2CF44 /* LaunchCardView.swift in Sources */,
+				14C9FF9A2D66CEDF00B2CF44 /* RocketsCardDisplayable.swift in Sources */,
+				14C9FF9C2D66CEF800B2CF44 /* RocketsCardsUI.swift in Sources */,
+				14C9FFA02D66CF4B00B2CF44 /* ShipCardGradiant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,7 +583,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		14C9FF872D66BE3900B2CF44 /* XCLocalSwiftPackageReference "InterviewAppMultimoneyAPI" */ = {
+		14C9FFA12D66D67B00B2CF44 /* XCLocalSwiftPackageReference "InterviewAppMultimoneyAPI" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = InterviewAppMultimoneyAPI;
 		};
@@ -567,6 +624,18 @@
 			productName = InterviewAppMultimoneyAPI;
 		};
 		14C9FF882D66BE3900B2CF44 /* InterviewAppMultimoneyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InterviewAppMultimoneyAPI;
+		};
+		14C9FF932D66CA0C00B2CF44 /* InterviewAppMultimoneyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InterviewAppMultimoneyAPI;
+		};
+		14C9FF962D66CBE500B2CF44 /* InterviewAppMultimoneyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InterviewAppMultimoneyAPI;
+		};
+		14C9FFA22D66D67B00B2CF44 /* InterviewAppMultimoneyAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = InterviewAppMultimoneyAPI;
 		};
