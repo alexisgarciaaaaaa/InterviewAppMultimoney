@@ -17,7 +17,7 @@ struct LauchesCardsUI<CardView: LaunchCardDisplayable>: View {
 
     var body: some View {
         ScrollView {
-            LazyVStack(spacing: 16) {
+            LazyVStack(spacing: K.Constants.sixteen) {
                 if !firstLoading {
                     if let launches = lauches {
                         ForEach(launches, id: \.?.id) { data in
@@ -42,7 +42,7 @@ struct LauchesCardsUI<CardView: LaunchCardDisplayable>: View {
                         .padding()
                 }
             }
-            .padding(.top, 16)
+            .padding(.top, K.Constants.sixteen)
         }
         .background(Color(.systemGroupedBackground))
     }

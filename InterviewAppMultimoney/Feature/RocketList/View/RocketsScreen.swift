@@ -28,7 +28,7 @@ struct RocketsScreen: View {
                     shipsViewModel.currentPage += 1
                     shipsViewModel.getShipsList()
                 })
-            .navigationTitle("Rockets")
+            .navigationTitle(K.Strings.rocketsScreenTitle)
         }
     }
 }

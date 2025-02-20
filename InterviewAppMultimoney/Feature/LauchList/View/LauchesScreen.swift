@@ -26,7 +26,7 @@ struct LauchesScreen: View {
                     launchesViewModel.currentPage += 1
                     launchesViewModel.getLanchesList()
                 })
-            .navigationTitle("Launches")
+            .navigationTitle(K.Strings.launchesScreenTitle)
         }
     }
 }

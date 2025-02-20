@@ -37,6 +37,7 @@
 		14C9FFA02D66CF4B00B2CF44 /* ShipCardGradiant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF9F2D66CF4B00B2CF44 /* ShipCardGradiant.swift */; };
 		14C9FFA32D66D67B00B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FFA22D66D67B00B2CF44 /* InterviewAppMultimoneyAPI */; };
 		14C9FFA52D66DD9C00B2CF44 /* ShipInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FFA42D66DD9C00B2CF44 /* ShipInfoRow.swift */; };
+		14C9FFA72D66EA0500B2CF44 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FFA62D66EA0500B2CF44 /* K.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		14C9FF9B2D66CEF800B2CF44 /* RocketsCardsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsCardsUI.swift; sourceTree = "<group>"; };
 		14C9FF9F2D66CF4B00B2CF44 /* ShipCardGradiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipCardGradiant.swift; sourceTree = "<group>"; };
 		14C9FFA42D66DD9C00B2CF44 /* ShipInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipInfoRow.swift; sourceTree = "<group>"; };
+		14C9FFA62D66EA0500B2CF44 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 		14C9FF562D6678CB00B2CF44 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				14C9FFA62D66EA0500B2CF44 /* K.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				14C9FFA52D66DD9C00B2CF44 /* ShipInfoRow.swift in Sources */,
 				14C9FF832D66BC9B00B2CF44 /* MultimoneyTabBar.swift in Sources */,
 				14C9FF6F2D667DFB00B2CF44 /* LauchesViewModel.swift in Sources */,
+				14C9FFA72D66EA0500B2CF44 /* K.swift in Sources */,
 				14C9FF722D6689A900B2CF44 /* LauchesCardsUI.swift in Sources */,
 				14C9FF482D66788A00B2CF44 /* LauchesScreen.swift in Sources */,
 				14C9FF6A2D667D5700B2CF44 /* LaunchesService.swift in Sources */,

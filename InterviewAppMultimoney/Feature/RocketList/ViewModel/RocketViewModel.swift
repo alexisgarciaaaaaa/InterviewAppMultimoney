@@ -9,17 +9,6 @@ import SwiftUI
 import Apollo
 import InterviewAppMultimoneyAPI
 
-//query GetRocketsList($limit: Int, $offset: Int) {
-//  rockets(limit: $limit, offset: $offset) {
-//    wikipedia
-//    type
-//    success_rate_pct
-//    name
-//    cost_per_launch
-//    id
-//  }
-//}
-
 struct ShipResponse: Identifiable, Equatable {
     let id = UUID().uuidString
     let year: Int

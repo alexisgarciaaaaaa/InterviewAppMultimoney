@@ -12,7 +12,7 @@ struct ShipInfoRow: View {
     var value: String
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 2) {
+        VStack(alignment: .leading, spacing: K.Constants.two) {
             Text(label)
                 .font(.caption)
                 .foregroundColor(.white.opacity(0.8))

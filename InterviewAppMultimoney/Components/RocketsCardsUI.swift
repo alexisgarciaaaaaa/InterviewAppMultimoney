@@ -17,7 +17,7 @@ struct RocketsCardsUI<CardView: ShipCardDisplayable>: View {
 
     var body: some View {
         ScrollView {
-            LazyVStack(spacing: 16) {
+            LazyVStack(spacing: K.Constants.sixteen) {
                 if !firstLoading {
                         ForEach(ships , id: \.id) { data in
                             cardViewBuilder(data)
@@ -40,7 +40,7 @@ struct RocketsCardsUI<CardView: ShipCardDisplayable>: View {
                         .padding()
                 }
             }
-            .padding(.top, 16)
+            .padding(.top, K.Constants.sixteen)
         }
         .background(Color(.systemGroupedBackground))
     }

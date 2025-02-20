@@ -13,14 +13,14 @@ struct MultimoneyTabBar: View {
             
             RocketsScreen()
                 .tabItem {
-                    Image(systemName: "fireworks")
-                    Text("Lanzamientos")
+                    K.Images.shipTabBarImage
+                    Text(K.Strings.shipTabBar)
                 }
             
             LauchesScreen()
                 .tabItem {
-                    Image(systemName: "flame.fill")
-                    Text("Cohetes")
+                    K.Images.launchTabBarImage
+                    Text(K.Strings.lauchesTabBar)
                 }
         }
         .accentColor(.cyan)
