@@ -9,7 +9,21 @@ import SwiftUI
 
 struct MultimoneyTabBar: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TabView {
+            
+            RocketsScreen()
+                .tabItem {
+                    K.Images.shipTabBarImage
+                    Text(K.Strings.shipTabBar)
+                }
+            
+            LauchesScreen()
+                .tabItem {
+                    K.Images.launchTabBarImage
+                    Text(K.Strings.lauchesTabBar)
+                }
+        }
+        .accentColor(.cyan)
     }
 }
 

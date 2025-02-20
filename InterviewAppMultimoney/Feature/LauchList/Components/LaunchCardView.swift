@@ -12,7 +12,7 @@ struct LaunchCardView: LaunchCardDisplayable {
     let launch: GetLaunchesListQuery.Data.LaunchesPast?
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 8) {
+        VStack(alignment: .leading, spacing: K.Constants.eigth) {
             HStack {
                 Text(launch?.mission_name ?? "")
                     .font(.title2)
@@ -24,7 +24,7 @@ struct LaunchCardView: LaunchCardDisplayable {
             }
             
             HStack {
-                Text((launch?.launch_success ?? false) == true ? "✅ Success" : "❌ Failed")
+                Text((launch?.launch_success ?? false) == true ? "✅ \(K.Strings.successful)" : "❌ \(K.Strings.failed)")
                     .font(.subheadline)
                     .foregroundColor((launch?.launch_success ?? false) == true ? .green : .red)
             }
@@ -37,7 +37,9 @@ struct LaunchCardView: LaunchCardDisplayable {
             }
         }
         .padding()
-        .background(RoundedRectangle(cornerRadius: 12).fill(Color(.systemBackground)).shadow(radius: 4))
+        .background(RoundedRectangle(
+            cornerRadius: 12).fill(Color(.systemBackground)).shadow(radius: K.Constants.four)
+        )
         .padding(.horizontal)
     }
 }

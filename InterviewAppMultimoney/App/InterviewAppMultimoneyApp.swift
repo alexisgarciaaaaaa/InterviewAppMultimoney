@@ -11,7 +11,7 @@ import SwiftUI
 struct InterviewAppMultimoneyApp: App {
     var body: some Scene {
         WindowGroup {
-            LauchesScreen()
+            MultimoneyTabBar()
         }
     }
 }
