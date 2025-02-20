@@ -7,7 +7,7 @@ public class GetRocketsListQuery: GraphQLQuery {
   public static let operationName: String = "GetRocketsList"
   public static let operationDocument: ApolloAPI.OperationDocument = .init(
     definition: .init(
-      #"query GetRocketsList($limit: Int, $offset: Int) { rockets(limit: $limit, offset: $offset) { __typename wikipedia type success_rate_pct name description diameter { __typename meters } } }"#
+      #"query GetRocketsList($limit: Int, $offset: Int) { rockets(limit: $limit, offset: $offset) { __typename wikipedia type success_rate_pct name description diameter { __typename meters } active cost_per_launch } }"#
     ))
 
   public var limit: GraphQLNullable<Int>
@@ -56,6 +56,8 @@ public class GetRocketsListQuery: GraphQLQuery {
         .field("name", String?.self),
         .field("description", String?.self),
         .field("diameter", Diameter?.self),
+        .field("active", Bool?.self),
+        .field("cost_per_launch", Int?.self),
       ] }
 
       public var wikipedia: String? { __data["wikipedia"] }
@@ -64,6 +66,8 @@ public class GetRocketsListQuery: GraphQLQuery {
       public var name: String? { __data["name"] }
       public var description: String? { __data["description"] }
       public var diameter: Diameter? { __data["diameter"] }
+      public var active: Bool? { __data["active"] }
+      public var cost_per_launch: Int? { __data["cost_per_launch"] }
 
       /// Rocket.Diameter
       ///

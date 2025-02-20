@@ -26,6 +26,8 @@
 		14C9FF7D2D66BAE600B2CF44 /* LaunchCardDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF7C2D66BAE600B2CF44 /* LaunchCardDisplayable.swift */; };
 		14C9FF7F2D66BB1200B2CF44 /* LaunchCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF7E2D66BB1200B2CF44 /* LaunchCardView.swift */; };
 		14C9FF832D66BC9B00B2CF44 /* MultimoneyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */; };
+		14C9FF862D66BDC600B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF852D66BDC600B2CF44 /* InterviewAppMultimoneyAPI */; };
+		14C9FF892D66BE3900B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF882D66BE3900B2CF44 /* InterviewAppMultimoneyAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +56,9 @@
 			files = (
 				14C9FF752D66B9B600B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
 				14C9FF5A2D667A0F00B2CF44 /* Apollo in Frameworks */,
+				14C9FF892D66BE3900B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
 				14C9FF5C2D667A0F00B2CF44 /* ApolloWebSocket in Frameworks */,
+				14C9FF862D66BDC600B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
 				14C9FF672D667D0400B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +245,8 @@
 				14C9FF5B2D667A0F00B2CF44 /* ApolloWebSocket */,
 				14C9FF662D667D0400B2CF44 /* InterviewAppMultimoneyAPI */,
 				14C9FF742D66B9B600B2CF44 /* InterviewAppMultimoneyAPI */,
+				14C9FF852D66BDC600B2CF44 /* InterviewAppMultimoneyAPI */,
+				14C9FF882D66BE3900B2CF44 /* InterviewAppMultimoneyAPI */,
 			);
 			productName = InterviewAppMultimoney;
 			productReference = 14C9FF422D66788A00B2CF44 /* InterviewAppMultimoney.app */;
@@ -272,7 +278,7 @@
 			mainGroup = 14C9FF392D66788A00B2CF44;
 			packageReferences = (
 				14C9FF582D667A0F00B2CF44 /* XCRemoteSwiftPackageReference "apollo-ios" */,
-				14C9FF732D66B9B600B2CF44 /* XCLocalSwiftPackageReference "InterviewAppMultimoneyAPI" */,
+				14C9FF872D66BE3900B2CF44 /* XCLocalSwiftPackageReference "InterviewAppMultimoneyAPI" */,
 			);
 			productRefGroup = 14C9FF432D66788A00B2CF44 /* Products */;
 			projectDirPath = "";
@@ -520,7 +526,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
-		14C9FF732D66B9B600B2CF44 /* XCLocalSwiftPackageReference "InterviewAppMultimoneyAPI" */ = {
+		14C9FF872D66BE3900B2CF44 /* XCLocalSwiftPackageReference "InterviewAppMultimoneyAPI" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = InterviewAppMultimoneyAPI;
 		};
@@ -553,6 +559,14 @@
 			productName = InterviewAppMultimoneyAPI;
 		};
 		14C9FF742D66B9B600B2CF44 /* InterviewAppMultimoneyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InterviewAppMultimoneyAPI;
+		};
+		14C9FF852D66BDC600B2CF44 /* InterviewAppMultimoneyAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = InterviewAppMultimoneyAPI;
+		};
+		14C9FF882D66BE3900B2CF44 /* InterviewAppMultimoneyAPI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = InterviewAppMultimoneyAPI;
 		};

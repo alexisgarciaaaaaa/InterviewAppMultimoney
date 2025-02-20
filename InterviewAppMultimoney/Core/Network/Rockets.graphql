@@ -8,5 +8,7 @@ query GetRocketsList($limit: Int, $offset: Int) {
     diameter {
       meters
     }
+    active
+    cost_per_launch
   }
 }
