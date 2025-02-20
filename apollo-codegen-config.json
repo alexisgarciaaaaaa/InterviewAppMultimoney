@@ -1,0 +1,28 @@
+{
+  "schemaNamespace" : "InterviewAppMultimoneyAPI",
+  "input" : {
+    "operationSearchPaths" : [
+      "**/Core/Network/*.graphql"
+    ],
+    "schemaSearchPaths" : [
+      "**/Core/Network/*.graphqls"
+    ]
+  },
+  "output" : {
+    "testMocks" : {
+      "none" : {
+      }
+    },
+    "schemaTypes" : {
+      "path" : "./InterviewAppMultimoneyAPI",
+      "moduleType" : {
+        "swiftPackageManager" : {
+        }
+      }
+    },
+    "operations" : {
+      "inSchemaModule" : {
+      }
+    }
+  }
+}
