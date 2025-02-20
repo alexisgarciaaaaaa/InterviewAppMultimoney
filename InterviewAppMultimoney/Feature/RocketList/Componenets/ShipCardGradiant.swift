@@ -29,10 +29,10 @@ struct ShipCardGradiant: ShipCardDisplayable {
                         .aspectRatio(contentMode: .fill)
                         .frame(
                             width: UIScreen.main.bounds.width * 0.85,
-                            height: K.Constants.oneHundredSeventy)
+                            height: 180)
                         .clipped()
                         .clipShape(RoundedRectangle(
-                            cornerRadius: K.Constants.fifteen,
+                            cornerRadius: 15,
                             style: .continuous))
                 } placeholder: {
                     ProgressView()

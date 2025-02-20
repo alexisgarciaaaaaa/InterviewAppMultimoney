@@ -38,6 +38,8 @@
 		14C9FFA32D66D67B00B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FFA22D66D67B00B2CF44 /* InterviewAppMultimoneyAPI */; };
 		14C9FFA52D66DD9C00B2CF44 /* ShipInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FFA42D66DD9C00B2CF44 /* ShipInfoRow.swift */; };
 		14C9FFA72D66EA0500B2CF44 /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FFA62D66EA0500B2CF44 /* K.swift */; };
+		14C9FFA92D66F34600B2CF44 /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FFA82D66F34600B2CF44 /* BaseViewModel.swift */; };
+		14C9FFAC2D66F47E00B2CF44 /* ShipResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FFAB2D66F47E00B2CF44 /* ShipResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		14C9FF9F2D66CF4B00B2CF44 /* ShipCardGradiant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipCardGradiant.swift; sourceTree = "<group>"; };
 		14C9FFA42D66DD9C00B2CF44 /* ShipInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipInfoRow.swift; sourceTree = "<group>"; };
 		14C9FFA62D66EA0500B2CF44 /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		14C9FFA82D66F34600B2CF44 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		14C9FFAB2D66F47E00B2CF44 /* ShipResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +195,7 @@
 			children = (
 				14C9FF712D6689A900B2CF44 /* LauchesCardsUI.swift */,
 				14C9FF9B2D66CEF800B2CF44 /* RocketsCardsUI.swift */,
+				14C9FFA82D66F34600B2CF44 /* BaseViewModel.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 		14C9FF802D66BBA300B2CF44 /* RocketList */ = {
 			isa = PBXGroup;
 			children = (
+				14C9FFAA2D66F47400B2CF44 /* Model */,
 				14C9FF982D66CE6F00B2CF44 /* Componenets */,
 				14C9FF8F2D66C04800B2CF44 /* View */,
 				14C9FF8C2D66BF1900B2CF44 /* ViewModel */,
@@ -273,6 +279,14 @@
 				14C9FFA42D66DD9C00B2CF44 /* ShipInfoRow.swift */,
 			);
 			path = Componenets;
+			sourceTree = "<group>";
+		};
+		14C9FFAA2D66F47400B2CF44 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14C9FFAB2D66F47E00B2CF44 /* ShipResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -365,9 +379,11 @@
 			files = (
 				14C9FFA52D66DD9C00B2CF44 /* ShipInfoRow.swift in Sources */,
 				14C9FF832D66BC9B00B2CF44 /* MultimoneyTabBar.swift in Sources */,
+				14C9FFAC2D66F47E00B2CF44 /* ShipResponse.swift in Sources */,
 				14C9FF6F2D667DFB00B2CF44 /* LauchesViewModel.swift in Sources */,
 				14C9FFA72D66EA0500B2CF44 /* K.swift in Sources */,
 				14C9FF722D6689A900B2CF44 /* LauchesCardsUI.swift in Sources */,
+				14C9FFA92D66F34600B2CF44 /* BaseViewModel.swift in Sources */,
 				14C9FF482D66788A00B2CF44 /* LauchesScreen.swift in Sources */,
 				14C9FF6A2D667D5700B2CF44 /* LaunchesService.swift in Sources */,
 				14C9FF6D2D667D7C00B2CF44 /* LaunchRepositories.swift in Sources */,
