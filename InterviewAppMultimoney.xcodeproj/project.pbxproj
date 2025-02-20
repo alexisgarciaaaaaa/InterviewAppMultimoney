@@ -28,7 +28,7 @@
 		14C9FF832D66BC9B00B2CF44 /* MultimoneyTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */; };
 		14C9FF862D66BDC600B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF852D66BDC600B2CF44 /* InterviewAppMultimoneyAPI */; };
 		14C9FF892D66BE3900B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF882D66BE3900B2CF44 /* InterviewAppMultimoneyAPI */; };
-		14C9FF8E2D66BF2700B2CF44 /* RocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF8D2D66BF2700B2CF44 /* RocketViewModel.swift */; };
+		14C9FF8E2D66BF2700B2CF44 /* ShipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF8D2D66BF2700B2CF44 /* ShipViewModel.swift */; };
 		14C9FF912D66C05C00B2CF44 /* RocketsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14C9FF902D66C05C00B2CF44 /* RocketsScreen.swift */; };
 		14C9FF942D66CA0C00B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF932D66CA0C00B2CF44 /* InterviewAppMultimoneyAPI */; };
 		14C9FF972D66CBE500B2CF44 /* InterviewAppMultimoneyAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 14C9FF962D66CBE500B2CF44 /* InterviewAppMultimoneyAPI */; };
@@ -59,7 +59,7 @@
 		14C9FF7C2D66BAE600B2CF44 /* LaunchCardDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCardDisplayable.swift; sourceTree = "<group>"; };
 		14C9FF7E2D66BB1200B2CF44 /* LaunchCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchCardView.swift; sourceTree = "<group>"; };
 		14C9FF822D66BC9B00B2CF44 /* MultimoneyTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultimoneyTabBar.swift; sourceTree = "<group>"; };
-		14C9FF8D2D66BF2700B2CF44 /* RocketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketViewModel.swift; sourceTree = "<group>"; };
+		14C9FF8D2D66BF2700B2CF44 /* ShipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipViewModel.swift; sourceTree = "<group>"; };
 		14C9FF902D66C05C00B2CF44 /* RocketsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsScreen.swift; sourceTree = "<group>"; };
 		14C9FF992D66CEDF00B2CF44 /* RocketsCardDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsCardDisplayable.swift; sourceTree = "<group>"; };
 		14C9FF9B2D66CEF800B2CF44 /* RocketsCardsUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketsCardsUI.swift; sourceTree = "<group>"; };
@@ -258,7 +258,7 @@
 		14C9FF8C2D66BF1900B2CF44 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				14C9FF8D2D66BF2700B2CF44 /* RocketViewModel.swift */,
+				14C9FF8D2D66BF2700B2CF44 /* ShipViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -391,7 +391,7 @@
 				14C9FF462D66788A00B2CF44 /* InterviewAppMultimoneyApp.swift in Sources */,
 				14C9FF7B2D66BA7300B2CF44 /* LaunchCardGradiant.swift in Sources */,
 				14C9FF912D66C05C00B2CF44 /* RocketsScreen.swift in Sources */,
-				14C9FF8E2D66BF2700B2CF44 /* RocketViewModel.swift in Sources */,
+				14C9FF8E2D66BF2700B2CF44 /* ShipViewModel.swift in Sources */,
 				14C9FF7F2D66BB1200B2CF44 /* LaunchCardView.swift in Sources */,
 				14C9FF9A2D66CEDF00B2CF44 /* RocketsCardDisplayable.swift in Sources */,
 				14C9FF9C2D66CEF800B2CF44 /* RocketsCardsUI.swift in Sources */,

@@ -8,6 +8,7 @@
 import SwiftUI
 import Apollo
 import InterviewAppMultimoneyAPI
+import Combine
 
 class ShipViewModel: BaseViewModel {
     
