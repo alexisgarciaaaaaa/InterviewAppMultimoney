@@ -17,7 +17,7 @@ class LauchesViewModel: ObservableObject {
     @Published var perPage: GraphQLNullable<Int> = 10
     let service: ServicesProtocol
     
-    init(service: ServicesProtocol = DataService()) {
+    init(service: ServicesProtocol) {
         self.service = service
         self.getLanchesList()
     }

@@ -10,7 +10,11 @@ import InterviewAppMultimoneyAPI
 
 
 struct RocketsScreen: View {
-    @StateObject var shipsViewModel = ShipViewModel()
+    @StateObject var shipsViewModel: ShipViewModel
+    
+    init(shipsViewModel: ShipViewModel = ShipViewModel(service: DataService())) {
+        _shipsViewModel = StateObject(wrappedValue: shipsViewModel)
+    }
     var body: some View {
         NavigationView {
             RocketsCardsUI(
@@ -30,5 +34,5 @@ struct RocketsScreen: View {
 }
 
 #Preview {
-    RocketsScreen()
+    RocketsScreen(shipsViewModel: ShipViewModel(service: DataService()))
 }

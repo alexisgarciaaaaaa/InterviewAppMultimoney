@@ -9,7 +9,11 @@ import SwiftUI
 import InterviewAppMultimoneyAPI
 
 struct LauchesScreen: View {
-    @StateObject var launchesViewModel = LauchesViewModel()
+    @StateObject var launchesViewModel: LauchesViewModel
+        
+    init(launchesViewModel: LauchesViewModel = LauchesViewModel(service: DataService())) {
+        _launchesViewModel = StateObject(wrappedValue: launchesViewModel)
+    }
     var body: some View {
         NavigationView {
             LauchesCardsUI(
@@ -28,5 +32,5 @@ struct LauchesScreen: View {
 }
 
 #Preview {
-    LauchesScreen()
+    LauchesScreen(launchesViewModel: LauchesViewModel(service: DataService()))
 }
